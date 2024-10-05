@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#calculator {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  font-size: 2em;
+  margin-bottom: 20px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  text-align: right;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5em;
+  margin: 5px;
+  cursor: pointer;
+}
